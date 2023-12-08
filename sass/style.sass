@@ -1,0 +1,37 @@
+$bgColor:#795050
+$border: 1px solid black
+@mixin font
+    font-size: 1.1em
+    font-weight: bold
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+    color: #33ff00
+*
+   padding: 0
+   margin: 0
+
+.conteiner:not(.first)
+   background: red
+   border: $border
+   height:200px
+   margin-bottom: 20px
+
+.conteiner
+   a
+      &:hover
+         color: black
+
+.first
+   background: $bgColor
+   height: 100px
+   margin-bottom: 20px
+
+#central_block
+   padding:40px
+   ul
+      list-style: none
+      li
+        width: (100% / 3)
+        @include font
+        float: left
+        margin-right: 10px
+     

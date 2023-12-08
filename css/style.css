@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.conteiner:not(.first) {
+  background: red;
+  border: 1px solid black;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.conteiner a:hover {
+  color: black;
+}
+
+.first {
+  background: #795050;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+#central_block {
+  padding: 40px;
+}
+#central_block ul {
+  list-style: none;
+}
+#central_block ul li {
+  width: 33.3333333333%;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #33ff00;
+  float: left;
+  margin-right: 10px;
+}
